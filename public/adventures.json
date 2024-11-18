@@ -1,7 +1,7 @@
 [
     {
         "AdventureTitle": "Summit of the Rockies",
-        "Image": "https://example.com/images/summit_rockies.jpg",
+        "Image": "https://i.ibb.co/VT266jt/summit-of-the-rockies.jpg",
         "ID": "MT001",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "A challenging trek to the summit of the Rockies with breathtaking views.",
@@ -30,7 +30,7 @@
     },
     {
         "AdventureTitle": "Appalachian Trail Adventure",
-        "Image": "https://example.com/images/appalachian_trail.jpg",
+        "Image": "https://i.ibb.co/kVnMS60/appalachian-trail.jpg",
         "ID": "MT002",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "Explore the iconic Appalachian Trail with stunning vistas and rich wildlife.",
@@ -59,7 +59,7 @@
     },
     {
         "AdventureTitle": "Andes Mountain Trek",
-        "Image": "https://example.com/images/andes_trek.jpg",
+        "Image": "https://i.ibb.co/FBJN5VR/cusco-region.jpg",
         "ID": "MT003",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "A breathtaking trek through the Andes, featuring ancient ruins and diverse ecosystems.",
@@ -88,7 +88,7 @@
     },
     {
         "AdventureTitle": "Himalayan Trekking Expedition",
-        "Image": "https://example.com/images/himalayan_trek.jpg",
+        "Image": "https://i.ibb.co/8zxxzQj/himalayan.jpg",
         "ID": "MT004",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "An unforgettable trek through the majestic Himalayas with stunning landscapes.",
@@ -117,7 +117,7 @@
     },
     {
         "AdventureTitle": "Mount Fuji Climb",
-        "Image": "https://example.com/images/mount_fuji.jpg",
+        "Image": "https://i.ibb.co/bK9YP7y/Mount-fuji.jpg",
         "ID": "MT005",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "A guided climb to the iconic peak of Mount Fuji, Japan's highest mountain.",
@@ -146,7 +146,7 @@
     },
     {
         "AdventureTitle": "Trekking in the Dolomites",
-        "Image": "https://example.com/images/dolomites_trek.jpg",
+        "Image": "https://i.ibb.co/QPWF5xY/Dolomoties.png",
         "ID": "MT006",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "Explore the stunning landscapes of the Dolomites on this guided trek.",
@@ -175,7 +175,7 @@
     },
     {
         "AdventureTitle": "Chamonix Mont Blanc Trek",
-        "Image": "https://example.com/images/chamonix_trek.jpg",
+        "Image": "https://i.ibb.co/2n63FXk/chamonix.jpg",
         "ID": "MT007",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "A spectacular trek around Mont Blanc, experiencing breathtaking alpine scenery.",
@@ -204,7 +204,7 @@
     },
     {
         "AdventureTitle": "Kilimanjaro Trek",
-        "Image": "https://example.com/images/kilimanjaro_trek.jpg",
+        "Image": "https://i.ibb.co/q9kgm34/Mount-kilimanjaro.jpg",
         "ID": "MT008",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "Challenge yourself on the trek to the summit of Africa's highest peak.",
@@ -233,7 +233,7 @@
     },
     {
         "AdventureTitle": "Canadian Rockies Adventure",
-        "Image": "https://example.com/images/canadian_rockies.jpg",
+        "Image": "https://i.ibb.co/K71Kc8g/candian-rockies.jpg",
         "ID": "MT009",
         "CategoryName": "Mountain Treks",
         "ShortDescription": "A stunning trek through the majestic Canadian Rockies, with lakes and glaciers.",
@@ -262,7 +262,7 @@
     },
     {
         "AdventureTitle": "Coral Reef Diving",
-        "Image": "https://example.com/images/coral_reef_diving.jpg",
+        "Image": "https://i.ibb.co/HFbYjy1/great-barrier-reef.jpg",
         "ID": "OD001",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Explore the vibrant coral reefs and marine life in a guided diving experience.",
@@ -291,7 +291,7 @@
     },
     {
         "AdventureTitle": "Shark Encounter Dive",
-        "Image": "https://example.com/images/shark_encounter.jpg",
+        "Image": "https://i.ibb.co/dg9RVRG/shark-encounter.jpg",
         "ID": "OD002",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Dive with sharks in their natural habitat and learn about marine ecosystems.",
@@ -320,7 +320,7 @@
     },
     {
         "AdventureTitle": "Wreck Diving Adventure",
-        "Image": "https://example.com/images/wreck_diving.jpg",
+        "Image": "https://i.ibb.co/vDzsHnn/wreck-diving.jpg",
         "ID": "OD003",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Explore historic shipwrecks and the marine life that inhabits them.",
@@ -349,7 +349,7 @@
     },
     {
         "AdventureTitle": "Manta Ray Night Dive",
-        "Image": "https://example.com/images/manta_ray_night_dive.jpg",
+        "Image": "https://i.ibb.co/y6JpQHD/Manta-ray.jpg",
         "ID": "OD004",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Experience the magical underwater world at night with majestic manta rays.",
@@ -378,7 +378,7 @@
     },
     {
         "AdventureTitle": "Tropical Fish Snorkeling",
-        "Image": "https://example.com/images/tropical_fish_snorkeling.jpg",
+        "Image": "https://i.ibb.co/cTfg3xS/tropical-fish.jpg",
         "ID": "OD005",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Snorkel in crystal-clear waters surrounded by colorful tropical fish.",
@@ -407,7 +407,7 @@
     },
     {
         "AdventureTitle": "Cave Diving Expedition",
-        "Image": "https://example.com/images/cave_diving.jpg",
+        "Image": "https://i.ibb.co/YNr0hdb/cave-diving.jpg",
         "ID": "OD006",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Explore stunning underwater caves and unique geological formations.",
@@ -436,7 +436,7 @@
     },
     {
         "AdventureTitle": "Underwater Photography Dive",
-        "Image": "https://example.com/images/underwater_photography.jpg",
+        "Image": "https://i.ibb.co/TRnhz59/Underwater-Photography.jpg",
         "ID": "OD007",
         "CategoryName": "Ocean Dives",
         "ShortDescription": "Join a guided dive focusing on underwater photography techniques and marine life.",
@@ -466,7 +466,7 @@
 
     {
         "AdventureTitle": "Whitewater Rafting Adventure",
-        "Image": "https://example.com/images/whitewater_rafting.jpg",
+        "Image": "https://i.ibb.co/c1CWC1v/whitewater-rafting.jpg",
         "ID": "RA001",
         "CategoryName": "River Adventures",
         "ShortDescription": "Experience the thrill of navigating through exciting whitewater rapids.",
@@ -495,7 +495,7 @@
     },
     {
         "AdventureTitle": "Kayaking the Amazon",
-        "Image": "https://example.com/images/kayaking_amazon.jpg",
+        "Image": "https://i.ibb.co/KXHKRP6/kayakinf-amazon.jpg",
         "ID": "RA002",
         "CategoryName": "River Adventures",
         "ShortDescription": "Paddle through the heart of the Amazon rainforest and discover its unique ecosystem.",
@@ -525,7 +525,7 @@
     },
     {
         "AdventureTitle": "River Kayaking Expedition",
-        "Image": "https://example.com/images/river_kayaking.jpg",
+        "Image": "https://i.ibb.co/3phbPYH/river-kayaking.jpg",
         "ID": "RA003",
         "CategoryName": "River Adventures",
         "ShortDescription": "Paddle through serene waters and experience the beauty of nature up close.",
@@ -554,7 +554,7 @@
     },
     {
         "AdventureTitle": "Stand-Up Paddleboarding Adventure",
-        "Image": "https://example.com/images/standup_paddleboarding.jpg",
+        "Image": "https://i.ibb.co/xSQXVDW/standup-paddling.jpg",
         "ID": "RA004",
         "CategoryName": "River Adventures",
         "ShortDescription": "Enjoy a fun day of stand-up paddleboarding on calm river waters.",
@@ -583,7 +583,7 @@
     },
     {
         "AdventureTitle": "River Tubing Adventure",
-        "Image": "https://example.com/images/river_tubing.jpg",
+        "Image": "https://i.ibb.co/85b1V7S/river-tubing.jpg",
         "ID": "RA005",
         "CategoryName": "River Adventures",
         "ShortDescription": "Relax and float down the river on a tubing adventure with friends.",
@@ -612,7 +612,7 @@
     },
     {
         "AdventureTitle": "Fishing Expedition on the River",
-        "Image": "https://example.com/images/river_fishing.jpg",
+        "Image": "https://i.ibb.co/Y0m4ZjR/fishing-expediton.jpg",
         "ID": "RA006",
         "CategoryName": "River Adventures",
         "ShortDescription": "Join an expert guide for a day of fishing in pristine river waters.",
@@ -641,7 +641,7 @@
     },
     {
         "AdventureTitle": "Serengeti Safari Adventure",
-        "Image": "https://example.com/images/serengeti_safari.jpg",
+        "Image": "https://i.ibb.co/KmZZ2m8/serengeti-safari.jpg",
         "ID": "WS001",
         "CategoryName": "Wildlife Safaris",
         "ShortDescription": "Embark on an unforgettable journey through the Serengeti to witness the Great Migration.",
@@ -670,7 +670,7 @@
     },
     {
         "AdventureTitle": "Kruger National Park Safari",
-        "Image": "https://example.com/images/kruger_safari.jpg",
+        "Image": "https://i.ibb.co/tmqMwPK/kruger-safari.jpg",
         "ID": "WS002",
         "CategoryName": "Wildlife Safaris",
         "ShortDescription": "Explore the diverse wildlife of Kruger National Park on this immersive safari experience.",
@@ -699,7 +699,7 @@
     },
     {
         "AdventureTitle": "Amazon Rainforest Expedition",
-        "Image": "https://example.com/images/amazon_expedition.jpg",
+        "Image": "https://i.ibb.co/580D2Rj/amazon-safari.jpg",
         "ID": "WS003",
         "CategoryName": "Wildlife Safaris",
         "ShortDescription": "Venture into the Amazon rainforest to discover its incredible biodiversity and unique wildlife.",
@@ -728,7 +728,7 @@
     },
     {
         "AdventureTitle": "Masai Mara Wildlife Safari",
-        "Image": "https://example.com/images/masai_mara_safari.jpg",
+        "Image": "https://i.ibb.co/Lzr0V8x/masai-mara.jpg",
         "ID": "WS004",
         "CategoryName": "Wildlife Safaris",
         "ShortDescription": "Experience the rich wildlife of the Masai Mara and meet the local Maasai people.",
@@ -755,847 +755,91 @@
             "Respect local customs and traditions"
         ]
     },
-    [
-        {
-            "AdventureTitle": "Amazon Rainforest Trek",
-            "Image": "https://example.com/images/amazon_trek.jpg",
-            "ID": "FE001",
-            "CategoryName": "Forest Expeditions",
-            "ShortDescription": "Embark on a thrilling trek through the Amazon rainforest, discovering its diverse flora and fauna.",
-            "AdventureCost": 1500,
-            "BookingAvailability": "Available",
-            "Location": "Amazon Rainforest, Brazil",
-            "Duration": "5 days",
-            "AdventureLevel": "Challenging",
-            "IncludedItems": [
-                "Guided jungle treks",
-                "Accommodation in eco-lodges",
-                "Daily meals",
-                "Transportation within the rainforest"
-            ],
-            "EcoFriendlyFeatures": [
-                "Support for local indigenous communities",
-                "Education on rainforest conservation",
-                "Use of sustainable practices"
-            ],
-            "MaxGroupSize": 10,
-            "SpecialInstructions": [
-                "Bring insect repellent and a waterproof bag",
-                "Wear sturdy hiking boots",
-                "Follow your guide's instructions"
-            ]
-        },
-        {
-            "AdventureTitle": "Redwood National Park Adventure",
-            "Image": "https://example.com/images/redwood_adventure.jpg",
-            "ID": "FE002",
-            "CategoryName": "Forest Expeditions",
-            "ShortDescription": "Explore the towering redwoods and diverse ecosystems of Redwood National Park.",
-            "AdventureCost": 1200,
-            "BookingAvailability": "Available",
-            "Location": "Redwood National Park, California, USA",
-            "Duration": "4 days",
-            "AdventureLevel": "Moderate",
-            "IncludedItems": [
-                "Guided hikes",
-                "Camping gear rental",
-                "Meals included",
-                "Park entrance fees"
-            ],
-            "EcoFriendlyFeatures": [
-                "Leave No Trace practices",
-                "Support for local conservation efforts",
-                "Education on forest ecosystems"
-            ],
-            "MaxGroupSize": 8,
-            "SpecialInstructions": [
-                "Dress in layers for variable weather",
-                "Bring a reusable water bottle",
-                "Respect wildlife and stay on trails"
-            ]
-        },
-        {
-            "AdventureTitle": "Borneo Jungle Expedition",
-            "Image": "https://example.com/images/borneo_jungle.jpg",
-            "ID": "FE003",
-            "CategoryName": "Forest Expeditions",
-            "ShortDescription": "Venture into the jungles of Borneo to witness unique wildlife and stunning landscapes.",
-            "AdventureCost": 2000,
-            "BookingAvailability": "Limited",
-            "Location": "Borneo, Malaysia/Indonesia",
-            "Duration": "6 days",
-            "AdventureLevel": "Challenging",
-            "IncludedItems": [
-                "Guided jungle treks",
-                "Accommodation in jungle lodges",
-                "Daily meals",
-                "Transportation within Borneo"
-            ],
-            "EcoFriendlyFeatures": [
-                "Support for local conservation projects",
-                "Education on endangered species",
-                "Promotion of sustainable tourism"
-            ],
-            "MaxGroupSize": 10,
-            "SpecialInstructions": [
-                "Bring sturdy footwear and a rain jacket",
-                "Pack light and waterproof your belongings",
-                "Follow all safety guidelines provided by the guide"
-            ]
-        },
-        {
-            "AdventureTitle": "Appalachian Trail Experience",
-            "Image": "https://example.com/images/appalachian_trail.jpg",
-            "ID": "FE004",
-            "CategoryName": "Forest Expeditions",
-            "ShortDescription": "Hike a section of the iconic Appalachian Trail, surrounded by stunning forest scenery.",
-            "AdventureCost": 800,
-            "BookingAvailability": "Available",
-            "Location": "Appalachian Trail, Eastern USA",
-            "Duration": "3 days",
-            "AdventureLevel": "Moderate",
-            "IncludedItems": [
-                "Guided hikes",
-                "Camping gear rental",
-                "Meals included",
-                "Trail maps and permits"
-            ],
-            "EcoFriendlyFeatures": [
-                "Leave No Trace principles",
-                "Support for trail maintenance programs",
-                "Education on local flora and fauna"
-            ],
-            "MaxGroupSize": 12,
-            "SpecialInstructions": [
-                "Wear comfortable hiking shoes",
-                "Bring a backpack and sufficient water",
-                "Respect other hikers and wildlife"
-            ]
-        },
-        {
-            "AdventureTitle": "Costa Rican Cloud Forest Expedition",
-            "Image": "https://example.com/images/costa_rica_cloud_forest.jpg",
-            "ID": "FE005",
-            "CategoryName": "Forest Expeditions",
-            "ShortDescription": "Explore the mystical cloud forests of Costa Rica, home to diverse wildlife and stunning landscapes.",
-            "AdventureCost": 1700,
-            "BookingAvailability": "Available",
-            "Location": "Monteverde Cloud Forest, Costa Rica",
-            "Duration": "5 days",
-            "AdventureLevel": "Moderate",
-            "IncludedItems": [
-                "Guided nature walks",
-                "Accommodation in eco-lodges",
-                "Daily meals",
-                "Transportation within Costa Rica"
-            ],
-            "EcoFriendlyFeatures": [
-                "Support for local conservation efforts",
-                "Education on cloud forest ecosystems",
-                "Use of sustainable practices in accommodations"
-            ],
-            "MaxGroupSize": 10,
-            "SpecialInstructions": [
-                "Bring a rain jacket and sturdy shoes",
-                "Pack light and bring a reusable water bottle",
-                "Be prepared for varying weather conditions"
-            ]
-        },
-        {
-            "AdventureTitle": "Scotland's Highland Forest Adventure",
-            "Image": "https://example.com/images/scotland_highland_forest.jpg",
-            "ID": "FE006",
-            "CategoryName": "Forest Expeditions",
-            "ShortDescription": "Discover the breathtaking beauty of Scotland's highland forests and rugged landscapes.",
-            "AdventureCost": 1900,
-            "BookingAvailability": "Limited",
-            "Location": "Scottish Highlands, Scotland",
-            "Duration": "7 days",
-            "AdventureLevel": "Moderate",
-            "IncludedItems": [
-                "Guided hikes through the forests",
-                "Accommodation in cozy cabins",
-                "Daily meals",
-                "Transport within the Highlands"
-            ],
-            "EcoFriendlyFeatures": [
-                "Promotion of local wildlife conservation",
-                "Education on Scottish ecosystems",
-                "Use of renewable energy in accommodations"
-            ],
-            "MaxGroupSize": 8,
-            "SpecialInstructions": [
-                "Dress in layers for changing weather",
-                "Bring a reusable water bottle and snacks",
-                "Respect local wildlife and habitats"
-            ]
-        },
-        {
-                "AdventureTitle": "Yosemite National Park Camping Retreat",
-                "Image": "https://example.com/images/yosemite_camping.jpg",
-                "ID": "CR001",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Reconnect with nature in the breathtaking Yosemite National Park, known for its stunning granite cliffs and waterfalls.",
-                "AdventureCost": 900,
-                "BookingAvailability": "Available",
-                "Location": "Yosemite National Park, California, USA",
-                "Duration": "4 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided nature walks",
-                    "Camping gear rental",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Leave No Trace principles",
-                    "Support for park conservation efforts",
-                    "Use of eco-friendly camping supplies"
-                ],
-                "MaxGroupSize": 15,
-                "SpecialInstructions": [
-                    "Bring a sleeping bag and personal toiletries",
-                    "Wear sturdy hiking shoes",
-                    "Be prepared for varying weather conditions"
-                ]
-            },
-            {
-                "AdventureTitle": "Great Smoky Mountains Camping Retreat",
-                "Image": "https://example.com/images/smoky_mountains_camping.jpg",
-                "ID": "CR002",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Experience the beauty of the Great Smoky Mountains while camping in a lush forest setting.",
-                "AdventureCost": 750,
-                "BookingAvailability": "Limited",
-                "Location": "Great Smoky Mountains National Park, Tennessee/North Carolina, USA",
-                "Duration": "3 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided hikes",
-                    "Meals included",
-                    "Campfire activities"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of wildlife conservation",
-                    "Education on local ecosystems",
-                    "Use of biodegradable products"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring insect repellent and sunscreen",
-                    "Pack light and bring a reusable water bottle",
-                    "Respect wildlife and maintain a safe distance"
-                ]
-            },
-            {
-                "AdventureTitle": "Joshua Tree National Park Camping Retreat",
-                "Image": "https://example.com/images/joshua_tree_camping.jpg",
-                "ID": "CR003",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Immerse yourself in the unique desert landscape of Joshua Tree National Park while camping under the stars.",
-                "AdventureCost": 800,
-                "BookingAvailability": "Available",
-                "Location": "Joshua Tree National Park, California, USA",
-                "Duration": "4 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided stargazing sessions",
-                    "Camping gear rental",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for desert conservation efforts",
-                    "Education on desert ecosystems",
-                    "Use of solar-powered equipment"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring warm clothing for cool nights",
-                    "Pack a flashlight or headlamp",
-                    "Stay on designated trails to protect the environment"
-                ]
-            },
-            {
-                "AdventureTitle": "Acadia National Park Camping Retreat",
-                "Image": "https://example.com/images/acadia_camping.jpg",
-                "ID": "CR004",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Explore the stunning coastal scenery of Acadia National Park while enjoying a relaxing camping experience.",
-                "AdventureCost": 950,
-                "BookingAvailability": "Available",
-                "Location": "Acadia National Park, Maine, USA",
-                "Duration": "5 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided coastal hikes",
-                    "Meals included",
-                    "Campfire storytelling"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of coastal conservation",
-                    "Education on marine ecosystems",
-                    "Use of eco-friendly camping supplies"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring a camera for stunning views",
-                    "Pack a rain jacket and sturdy shoes",
-                    "Respect local wildlife and habitats"
-                ]
-            },
-            {
-                "AdventureTitle": "Banff National Park Camping Retreat",
-                "Image": "https://example.com/images/banff_camping.jpg",
-                "ID": "CR005",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Experience the stunning beauty of the Canadian Rockies while camping in Banff National Park, surrounded by breathtaking landscapes.",
-                "AdventureCost": 1100,
-                "BookingAvailability": "Limited",
-                "Location": "Banff National Park, Alberta, Canada",
-                "Duration": "6 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided hikes",
-                    "Camping gear rental",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local conservation projects",
-                    "Education on alpine ecosystems",
-                    "Use of sustainable camping practices"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Dress in layers for variable weather",
-                    "Bring a reusable water bottle and snacks",
-                    "Respect wildlife and stay on designated trails"
-                ]
-            },
-            {
-                "AdventureTitle": "Zion National Park Camping Retreat",
-                "Image": "https://example.com/images/zion_camping.jpg",
-                "ID": "CR006",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Explore the stunning red rock formations of Zion National Park while enjoying a serene camping experience.",
-                "AdventureCost": 950,
-                "BookingAvailability": "Available",
-                "Location": "Zion National Park, Utah, USA",
-                "Duration": "4 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided hikes",
-                    "Meals included",
-                    "Campfire activities"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for desert conservation efforts",
-                    "Education on local geology",
-                    "Use of eco-friendly camping supplies"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring a hat and sunscreen for sun protection",
-                    "Pack plenty of water and snacks",
-                    "Stay on marked trails to protect the environment"
-                ]
-            },
-            {
-                "AdventureTitle": "Olympic National Park Camping Retreat",
-                "Image": "https://example.com/images/olympic_camping.jpg",
-                "ID": "CR007",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Discover the diverse ecosystems of Olympic National Park while camping in lush forests and along stunning coastlines.",
-                "AdventureCost": 1050,
-                "BookingAvailability": "Available",
-                "Location": "Olympic National Park, Washington, USA",
-                "Duration": "5 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided nature walks",
-                    "Meals included",
-                    "Transportation within the park"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of biodiversity conservation",
-                    "Education on local flora and fauna",
-                    "Use of biodegradable products"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring waterproof gear and sturdy shoes",
-                    "Pack a reusable water bottle",
-                    "Respect wildlife and maintain a safe distance"
-                ]
-            },
-            {
-                "AdventureTitle": "Big Sur Camping Retreat",
-                "Image": "https://example.com/images/big_sur_camping.jpg",
-                "ID": "CR008",
-                "CategoryName": "Camping Retreats",
-                "ShortDescription": "Enjoy breathtaking coastal views and rugged landscapes while camping in the iconic Big Sur region of California.",
-                "AdventureCost": 950,
-                "BookingAvailability": "Limited",
-                "Location": "Big Sur, California, USA",
-                "Duration": "4 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Campsite reservation",
-                    "Guided coastal hikes",
-                    "Meals included",
-                    "Campfire gatherings"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for coastal conservation",
-                    "Education on marine ecosystems",
-                    "Use of sustainable camping practices"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring warm layers for evenings",
-                    "Pack a camera for stunning views",
-                    "Stay on designated paths to protect the environment"
-                ]
-            },
-            {
-                "AdventureTitle": "Sahara Desert Expedition",
-                "Image": "https://example.com/images/sahara_expedition.jpg",
-                "ID": "DE001",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Embark on an unforgettable journey through the vast Sahara Desert, experiencing its stunning landscapes and rich culture.",
-                "AdventureCost": 2500,
-                "BookingAvailability": "Available",
-                "Location": "Sahara Desert, North Africa",
-                "Duration": "7 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided camel treks",
-                    "Accommodation in desert camps",
-                    "Meals included",
-                    "Cultural experiences with local tribes"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local communities",
-                    "Education on desert ecosystems",
-                    "Use of sustainable materials in camps"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring sun protection and a reusable water bottle",
-                    "Dress in lightweight, breathable clothing",
-                    "Prepare for temperature variations between day and night"
-                ]
-            },
-            {
-                "AdventureTitle": "Mojave Desert Adventure",
-                "Image": "https://example.com/images/mojave_desert.jpg",
-                "ID": "DE002",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Explore the unique landscapes of the Mojave Desert, from Joshua trees to stunning rock formations.",
-                "AdventureCost": 1200,
-                "BookingAvailability": "Limited",
-                "Location": "Mojave Desert, California, USA",
-                "Duration": "5 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Guided hikes",
-                    "Camping gear rental",
-                    "Meals included",
-                    "Stargazing sessions"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of desert conservation",
-                    "Education on local flora and fauna",
-                    "Use of eco-friendly camping supplies"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring plenty of water and snacks",
-                    "Wear sturdy hiking shoes and sun protection",
-                    "Respect wildlife and stay on designated trails"
-                ]
-            },
-            {
-                "AdventureTitle": "Atacama Desert Exploration",
-                "Image": "https://example.com/images/atacama_desert.jpg",
-                "ID": "DE003",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Discover the breathtaking landscapes of the Atacama Desert, the driest desert in the world, with its unique geological formations.",
-                "AdventureCost": 2300,
-                "BookingAvailability": "Available",
-                "Location": "Atacama Desert, Chile",
-                "Duration": "6 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided tours to salt flats and geysers",
-                    "Accommodation in eco-lodges",
-                    "Meals included",
-                    "Photography sessions"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local conservation efforts",
-                    "Education on desert ecosystems",
-                    "Use of sustainable practices in accommodations"
-                ],
-                "MaxGroupSize": 8,
-                "SpecialInstructions": [
-                    "Bring a camera for stunning landscapes",
-                    "Pack warm clothing for cold nights",
-                    "Stay hydrated and use sun protection"
-                ]
-            },
-            {
-                "AdventureTitle": "Namib Desert Safari",
-                "Image": "https://example.com/images/namib_desert.jpg",
-                "ID": "DE004",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Experience the majestic dunes and wildlife of the Namib Desert on an unforgettable safari adventure.",
-                "AdventureCost": 2800,
-                "BookingAvailability": "Limited",
-                "Location": "Namib Desert, Namibia",
-                "Duration": "7 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided safari tours",
-                    "Accommodation in luxury tents",
-                    "Meals included",
-                    "Cultural experiences with local tribes"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of wildlife conservation",
-                    "Education on desert ecosystems",
-                    "Use of solar-powered facilities"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring binoculars for wildlife viewing",
-                    "Pack light and bring a reusable water bottle",
-                    "Dress in layers for changing temperatures"
-                ]
-            },
-            {
-                "AdventureTitle": "Wadi Rum Desert Adventure",
-                "Image": "https://example.com/images/wadi_rum.jpg",
-                "ID": "DE005",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Explore the stunning landscapes of Wadi Rum, known for its dramatic sandstone mountains and ancient petroglyphs.",
-                "AdventureCost": 1500,
-                "BookingAvailability": "Available",
-                "Location": "Wadi Rum, Jordan",
-                "Duration": "4 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Guided jeep tours",
-                    "Accommodation in Bedouin tents",
-                    "Meals included",
-                    "Cultural experiences with local Bedouins"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local communities",
-                    "Education on desert ecosystems",
-                    "Use of sustainable practices in camps"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring a hat and sun protection",
-                    "Pack a reusable water bottle",
-                    "Dress in lightweight, breathable clothing"
-                ]
-            },
-            {
-                "AdventureTitle": "Sonoran Desert Exploration",
-                "Image": "https://example.com/images/sonoran_desert.jpg",
-                "ID": "DE006",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Discover the diverse flora and fauna of the Sonoran Desert, home to the iconic saguaro cactus and vibrant wildlife.",
-                "AdventureCost": 1300,
-                "BookingAvailability": "Available",
-                "Location": "Sonoran Desert, Arizona, USA",
-                "Duration": "5 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Guided nature walks",
-                    "Camping gear rental",
-                    "Meals included",
-                    "Wildlife observation activities"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of desert conservation",
-                    "Education on local ecosystems",
-                    "Use of biodegradable products"
-                ],
-                "MaxGroupSize": 15,
-                "SpecialInstructions": [
-                    "Bring plenty of water and snacks",
-                    "Wear sturdy shoes and sun protection",
-                    "Respect wildlife and stay on designated trails"
-                ]
-            },
-            {
-                "AdventureTitle": "Thar Desert Camel Safari",
-                "Image": "https://example.com/images/thar_desert.jpg",
-                "ID": "DE007",
-                "CategoryName": "Desert Exploration",
-                "ShortDescription": "Experience the enchanting Thar Desert on a camel safari, exploring its vast dunes and vibrant local culture.",
-                "AdventureCost": 1600,
-                "BookingAvailability": "Limited",
-                "Location": "Thar Desert, Rajasthan, India",
-                "Duration": "6 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Camel rides",
-                    "Accommodation in desert camps",
-                    "Meals included",
-                    "Cultural performances and local cuisine"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local artisans and communities",
-                    "Education on desert ecology",
-                    "Use of sustainable practices in camps"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring sun protection and a reusable water bottle",
-                    "Dress in lightweight, breathable clothing",
-                    "Prepare for temperature variations between day and night"
-                ]
-            },
-            {
-                "AdventureTitle": "Sundarbans Mangrove Adventure",
-                "Image": "https://example.com/images/sundarbans.jpg",
-                "ID": "MF001",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Venture into the Sundarbans, the largest mangrove forest in the world, and discover its rich biodiversity and unique wildlife.",
-                "AdventureCost": 1800,
-                "BookingAvailability": "Available",
-                "Location": "Sundarbans, India/Bangladesh",
-                "Duration": "5 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided boat tours",
-                    "Accommodation in eco-lodges",
-                    "Meals included",
-                    "Wildlife spotting activities"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local conservation efforts",
-                    "Education on mangrove ecosystems",
-                    "Use of sustainable practices in accommodations"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring binoculars for birdwatching",
-                    "Pack insect repellent and sun protection",
-                    "Respect local wildlife and habitats"
-                ]
-            },
-            {
-                "AdventureTitle": "Florida Mangroves Kayaking Tour",
-                "Image": "https://example.com/images/florida_mangroves.jpg",
-                "ID": "MF002",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Explore the intricate waterways of Florida's mangroves by kayak, observing diverse wildlife and stunning scenery.",
-                "AdventureCost": 1200,
-                "BookingAvailability": "Available",
-                "Location": "Everglades National Park, Florida, USA",
-                "Duration": "3 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Kayak rental",
-                    "Guided tours",
-                    "Camping gear rental",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of wetland conservation",
-                    "Education on mangrove ecosystems",
-                    "Use of eco-friendly kayaking equipment"
-                ],
-                "MaxGroupSize": 15,
-                "SpecialInstructions": [
-                    "Wear a life jacket and sunscreen",
-                    "Bring a reusable water bottle",
-                    "Stay on designated trails to protect the environment"
-                ]
-            },
-            {
-                "AdventureTitle": "Amazon Mangrove Exploration",
-                "Image": "https://example.com/images/amazon_mangroves.jpg",
-                "ID": "MF003",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Delve into the Amazon's mangrove ecosystems, discovering its unique flora and fauna while learning about local conservation efforts.",
-                "AdventureCost": 2200,
-                "BookingAvailability": "Limited",
-                "Location": "Amazon Rainforest, Brazil",
-                "Duration": "7 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided jungle treks",
-                    "Boat tours through mangroves",
-                    "Accommodation in eco-lodges",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local indigenous communities",
-                    "Education on rainforest and mangrove ecosystems",
-                    "Use of sustainable practices in accommodations"
-                ],
-                "MaxGroupSize": 8,
-                "SpecialInstructions": [
-                    "Bring waterproof gear and sturdy footwear",
-                    "Pack a camera for wildlife photography",
-                    "Respect local customs and wildlife"
-                ]
-            },
-            {
-                "AdventureTitle": "Phuket Mangrove Eco-Tour",
-                "Image": "https://example.com/images/phuket_mangroves.jpg",
-                "ID": "MF004",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Experience the beauty of Phuket's mangroves on this eco-tour, featuring kayaking, wildlife watching, and cultural insights.",
-                "AdventureCost": 950,
-                "BookingAvailability": "Available",
-                "Location": "Phuket, Thailand",
-                "Duration": "4 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Kayak rental",
-                    "Guided eco-tours",
-                    "Accommodation in local guesthouses",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of local conservation initiatives",
-                    "Education on mangrove ecosystems",
-                    "Use of sustainable tourism practices"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Bring a hat and sunscreen",
-                    "Pack a reusable water bottle",
-                    "Respect local wildlife and habitats"
-                ]
-            },
-            {
-                "AdventureTitle": "Borneo Mangrove Safari",
-                "Image": "https://example.com/images/borneo_mangroves.jpg",
-                "ID": "MF005",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Embark on a thrilling safari through Borneo's mangroves, home to unique wildlife such as proboscis monkeys and pygmy elephants.",
-                "AdventureCost": 2500,
-                "BookingAvailability": "Limited",
-                "Location": "Borneo, Malaysia/Indonesia",
-                "Duration": "6 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided boat tours",
-                    "Wildlife spotting activities",
-                    "Accommodation in eco-lodges",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local conservation projects",
-                    "Education on the importance of mangrove ecosystems",
-                    "Use of sustainable tourism practices"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring binoculars for wildlife viewing",
-                    "Pack insect repellent and sun protection",
-                    "Respect local wildlife and habitats"
-                ]
-            },
-            {
-                "AdventureTitle": "Gulf Coast Mangrove Adventure",
-                "Image": "https://example.com/images/gulf_coast_mangroves.jpg",
-                "ID": "MF006",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Explore the rich biodiversity of the Gulf Coast's mangrove forests through guided kayaking and nature walks.",
-                "AdventureCost": 1300,
-                "BookingAvailability": "Available",
-                "Location": "Florida Gulf Coast, USA",
-                "Duration": "4 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Kayak rental",
-                    "Guided eco-tours",
-                    "Accommodation in local inns",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Promotion of coastal conservation",
-                    "Education on mangrove ecosystems",
-                    "Use of eco-friendly kayaking equipment"
-                ],
-                "MaxGroupSize": 12,
-                "SpecialInstructions": [
-                    "Wear comfortable clothing and sturdy shoes",
-                    "Bring a reusable water bottle",
-                    "Stay on designated trails to protect the environment"
-                ]
-            },
-            {
-                "AdventureTitle": "Mangrove Kayak Adventure in Belize",
-                "Image": "https://example.com/images/belize_mangroves.jpg",
-                "ID": "MF007",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Paddle through the stunning mangroves of Belize, exploring its vibrant marine life and unique ecosystems.",
-                "AdventureCost": 1450,
-                "BookingAvailability": "Available",
-                "Location": "Belize Barrier Reef, Belize",
-                "Duration": "5 days",
-                "AdventureLevel": "Easy",
-                "IncludedItems": [
-                    "Kayak rental",
-                    "Guided tours",
-                    "Accommodation in beachside cabanas",
-                    "Meals included"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for marine conservation efforts",
-                    "Education on the importance of mangrove ecosystems",
-                    "Use of sustainable practices in accommodations"
-                ],
-                "MaxGroupSize": 10,
-                "SpecialInstructions": [
-                    "Bring sun protection and a hat",
-                    "Pack a reusable water bottle",
-                    "Respect local wildlife and habitats"
-                ]
-            },
-            {
-                "AdventureTitle": "Mangrove Forest Trek in Madagascar",
-                "Image": "https://example.com/images/madagascar_mangroves.jpg",
-                "ID": "MF008",
-                "CategoryName": "Mangrove Forest Expeditions",
-                "ShortDescription": "Discover the unique biodiversity of Madagascar's mangrove forests through guided treks and cultural experiences.",
-                "AdventureCost": 2100,
-                "BookingAvailability": "Limited",
-                "Location": "Madagascar",
-                "Duration": "6 days",
-                "AdventureLevel": "Moderate",
-                "IncludedItems": [
-                    "Guided treks",
-                    "Accommodation in local guesthouses",
-                    "Meals included",
-                    "Cultural interactions with local communities"
-                ],
-                "EcoFriendlyFeatures": [
-                    "Support for local conservation initiatives",
-                    "Education on the importance of mangrove ecosystems",
-                    "Use of sustainable tourism practices"
-                ],
-                "MaxGroupSize": 8,
-                "SpecialInstructions": [
-                    "Bring sturdy footwear for trekking",
-                    "Pack a reusable water bottle",
-                    "Respect local customs and wildlife"
-                ]
-            }
+    {
+        "AdventureTitle": "Yellowstone National Park Safari",
+        "Image": "https://i.ibb.co/vzjs62h/Yellowstone-safari.jpg",
+        "ID": "WS005",
+        "CategoryName": "Wildlife Safaris",
+        "ShortDescription": "Explore the diverse ecosystems and wildlife of Yellowstone National Park.",
+        "AdventureCost": 1800,
+        "BookingAvailability": "Limited",
+        "Location": "Yellowstone National Park, USA",
+        "Duration": "6 days",
+        "AdventureLevel": "Moderate",
+        "IncludedItems": [
+            "Guided wildlife tours",
+            "Camping equipment",
+            "All meals included",
+            "Transportation within the park"
+        ],
+        "EcoFriendlyFeatures": [
+            "Leave No Trace principles",
+            "Support for local conservation efforts",
+            "Education on park ecosystems"
+        ],
+        "MaxGroupSize": 10,
+        "SpecialInstructions": [
+            "Bring warm clothing and layers",
+            "Respect wildlife and keep a safe distance",
+            "Follow park rules and guidelines"
         ]
+    },
+    {
+        "AdventureTitle": "Borneo Rainforest Adventure",
+        "Image": "https://i.ibb.co/Vv5tx8h/borneo-safari.jpg",
+        "ID": "WS006",
+        "CategoryName": "Wildlife Safaris",
+        "ShortDescription": "Experience the rich biodiversity of Borneo's rainforest and its unique wildlife.",
+        "AdventureCost": 2500,
+        "BookingAvailability": "Available",
+        "Location": "Borneo, Malaysia",
+        "Duration": "7 days",
+        "AdventureLevel": "Challenging",
+        "IncludedItems": [
+            "Guided jungle treks",
+            "Accommodation in eco-lodges",
+            "Daily meals",
+            "Transportation within Borneo"
+        ],
+        "EcoFriendlyFeatures": [
+            "Support for local conservation projects",
+            "Education on rainforest ecosystems",
+            "Community-based tourism"
+        ],
+        "MaxGroupSize": 10,
+        "SpecialInstructions": [
+            "Bring insect repellent and a waterproof bag",
+            "Wear comfortable hiking shoes",
+            "Follow your guide's instructions"
+        ]
+    },
+    {
+        "AdventureTitle": "Galapagos Island Exploration",
+        "Image": "https://i.ibb.co/PMpc0Fq/galapagos-island.jpg",
+        "ID": "WS007",
+        "CategoryName": "Wildlife Safaris",
+        "ShortDescription": "Discover the unique wildlife and stunning landscapes of the Galapagos Islands.",
+        "AdventureCost": 3500,
+        "BookingAvailability": "Available",
+        "Location": "Galapagos Islands, Ecuador",
+        "Duration": "8 days",
+        "AdventureLevel": "Moderate",
+        "IncludedItems": [
+            "Accommodation on a yacht",
+            "Daily excursions",
+            "All meals included",
+            "Snorkeling gear"
+        ],
+        "EcoFriendlyFeatures": [
+            "Sustainable tourism practices",
+            "Support for local conservation efforts",
+            "Education on endemic species"
+        ],
+        "MaxGroupSize": 12,
+        "SpecialInstructions": [
+            "Bring a hat and sunscreen",
+            "Respect wildlife and keep a safe distance",
+            "Follow all park regulations"
+        ]
+    }
 ]
