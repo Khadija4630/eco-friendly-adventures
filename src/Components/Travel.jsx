@@ -1,10 +1,11 @@
 // Cards.js
 import React from 'react';
-import Card from './Card';
+import Card from './Adventure';
 import { useLoaderData } from 'react-router-dom';
 
 const Travel = () => {
     const data =useLoaderData();
+    console.log("Adventure Data travel:", data);
     const isLoggedIn = true; // Replace with actual login state
 
     if (!data) {

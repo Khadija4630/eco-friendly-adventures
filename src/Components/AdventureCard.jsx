@@ -2,6 +2,7 @@ import React from 'react';
 import {useNavigate } from 'react-router-dom';
 const AdventureCard = ({ adventure, isLoggedIn }) => {
         const navigate = useNavigate();
+        console.log("Adventure Data:", adventure);
     
         const handleExploreNow = () => {
             if (isLoggedIn) {
@@ -10,6 +11,11 @@ const AdventureCard = ({ adventure, isLoggedIn }) => {
                 navigate('/login'); // Redirect to login page
             }
         };
+
+        if (!adventure || !adventure.Image || !adventure.AdventureTitle || !adventure.ShortDescription || !adventure.EcoFriendlyFeatures) {
+            return <div className="text-red-500">Adventure data is missing or incomplete!</div>;
+        }
+    
     
         return (
             <div className="adventure-card bg-gradient-to-r from-green-400 to-blue-500 p-5 rounded-lg shadow-lg transition-transform transform hover:scale-105">

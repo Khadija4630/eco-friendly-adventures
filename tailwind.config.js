@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        "poppins": ["Poppins", "serif"],
       },
     },
   },
-  plugins: ['daisyui'],
+  plugins: [require('daisyui')],
 }
 
