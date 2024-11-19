@@ -9,7 +9,7 @@
 
 // export default UserContext;
 
-import React, { createContext, useState } from "react";
+import { createContext, useState } from "react";
 
 // Create the UserContext
 const UserContext = createContext();

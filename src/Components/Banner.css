@@ -1,0 +1,8 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-item {
+    flex: 0 0 100%; 
+}
