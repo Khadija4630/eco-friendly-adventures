@@ -1,16 +1,13 @@
 import { NavLink } from "react-router-dom";
 import { useContext ,useState} from "react";
 import UserContext from "../context/UserContext";
+// import Login from "./Login/Login";
 
-const Navbar = () => {
+const Navbar = ({Login}) => {
   const { user, login, logout } = useContext(UserContext);
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const mockUser = {
-    name: "Jane Doe",
-    photo: "https://via.placeholder.com/150", // Replace with actual user profile image URL
-  };
   return (
     <div className="flex md:justify-around  py-4 md:py-6 px-1 text-blue-400 hover:text-black">
       <div className=" text-2xl lg:text-3xl font-bold lg:py-3 lg:px-3 flex flex-row-reverse  ">
@@ -69,7 +66,7 @@ const Navbar = () => {
         ) : null}
 
         <button
-          onClick={() => (user ? logout : login(mockUser))}
+          onClick={() => (user ? logout : login)}
           className="bg-blue-500 text-white font-semibold rounded-xl hover:bg-green-300 hover:text-black focus:outline-none ml-2 md:px-6 md:py-4"
         >
           <NavLink to={!user ? "/login" : "/"}>

@@ -15,12 +15,11 @@ const route = createBrowserRouter([
         path: "/category/:id",
         element: <Cards></Cards>,
         loader: async ({ params }) => {
-            const response = await fetch(`./adventures.json`); // Replace with your data URL
+            const response = await fetch(`/adventures.json`); // Replace with your data URL
             if (!response.ok) {
                 throw new Response("Failed to fetch data", { status: 404 });
             }
             // return response.json(); 
-            // Return the fetched data
             const data = await response.json(); // Parse JSON
             const filteredData = data.filter(adventure => adventure.CategoryName === params.id);
             return filteredData;
