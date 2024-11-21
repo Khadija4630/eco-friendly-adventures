@@ -54,9 +54,9 @@ const Travel = () => {
         if (isLoggedIn) {
             navigate(`/adventure/${id}`);
         }
-        //  else {
-        //     navigate("/auth");
-        // }
+         else {
+            navigate("/login" , { state: { from: `/adventure/${id}` }});
+        }
     };
 
     return (

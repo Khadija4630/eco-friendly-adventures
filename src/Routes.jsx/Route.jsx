@@ -29,29 +29,29 @@ const route = createBrowserRouter([
             <AdventureDetails />
         </PrivateRoute>
     ),
-    loader: async ({params}) => {
-        try {
-            const response = await fetch(`/adventures.json`);
-            if (!response.ok) {
-                throw new Response("Failed to fetch data", { status: 404 });
-            }
-            const data = await response.json();
-            console.log("Fetched Data:", data);
+    // loader: async ({params}) => {
+    //     try {
+    //         const response = await fetch(`/adventures.json`);
+    //         if (!response.ok) {
+    //             throw new Response("Failed to fetch data", { status: 404 });
+    //         }
+    //         const data = await response.json();
+    //         console.log("Fetched Data:", data);
 
-            const adventure = data.find(
-                (adventure) => adventure.AdventureID.toString() === params.id
-            );
+    //         const adventure = data.find(
+    //             (adventure) => adventure.AdventureID.toString() === params.id
+    //         );
 
-            if (!adventure) {
-                throw new Response("Adventure not found", { status: 404 });
-            }
+    //         if (!adventure) {
+    //             throw new Response("Adventure not found", { status: 404 });
+    //         }
 
-            return adventure;
-        } catch (error) {
-            console.error("Loader Error:", error);
-            throw error;
-        }
-    },
+    //         return adventure;
+    //     } catch (error) {
+    //         console.error("Loader Error:", error);
+    //         throw error;
+    //     }
+    // },
 },
 ],
 },

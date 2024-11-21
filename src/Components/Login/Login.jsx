@@ -23,7 +23,7 @@ const Login = () => {
     await signInWithEmailAndPassword(email, password);
     if (!error) {
       toast.success("Login Successful!");
-      navigate(from, { replace: true });
+      navigate(location.state?.from || "/", { replace: true });;
     }
   };
 

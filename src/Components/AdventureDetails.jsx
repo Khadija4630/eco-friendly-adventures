@@ -1,13 +1,53 @@
-import { useLoaderData } from "react-router-dom";
-import React, { useState } from "react";
+import { useParams } from "react-router-dom";
+import React, { useState ,useEffect} from "react";
 
 const AdventureDetails = () => {
-    const adventure = useLoaderData();
+    const { id } = useParams(); 
+    const [adventure, setAdventure] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
     const [showModal, setShowModal] = useState(false);
+
+    useEffect(() => {
+        const fetchAdventureDetails = async () => {
+            setLoading(true);
+            try {
+                const response = await fetch("/adventures.json");
+                if (!response.ok) {
+                    throw new Error("Failed to fetch adventure details");
+                }
+                const data = await response.json();
+                const selectedAdventure = data.find(
+                    (item) => item.AdventureID.toString() === id
+                );
+
+                if (!selectedAdventure) {
+                    throw new Error("Adventure not found");
+                }
+
+                setAdventure(selectedAdventure);
+            } catch (err) {
+                setError(err.message);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchAdventureDetails();
+    }, [id]);
 
     if (!adventure) {
         return <div className="text-center">Adventure details not found.</div>;
     }
+
+    if (loading) {
+        return <div className="text-center">Loading adventure details...</div>;
+    }
+
+    if (error) {
+        return <div className="text-center text-red-500">{error}</div>;
+    }
+
 
     const handleExpertClick = () => {
         const currentTime = new Date();
@@ -16,6 +56,7 @@ const AdventureDetails = () => {
             window.open("https://meet.google.com", "_blank");
         } else {
             setShowModal(true);
+                alert("Talk with expert! Our experts are available between 10:00 AM and 8:00 PM.");
         }
     };
 
