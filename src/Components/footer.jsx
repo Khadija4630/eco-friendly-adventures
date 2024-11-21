@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css";
+
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -9,7 +10,10 @@ const Footer = () => {
     <>
       <footer className="flex flex-col justify-center items-center bg-gray-200">
         <div className="footer-area mb-2 pt-5">
-          <h3 className='text-2xl md:text-4xl mb-3 text-black font-bold'>Eco-Friendly Adventure</h3>
+          <div className='flex'>
+          <img src="/public/logo.png" alt="" className='w-11 rounded-full p-1 border-none mb-2' />
+          <h3 className='text-2xl md:text-4xl mb-3 text-black font-bold '> Eco-Friendly Adventure</h3>
+          </div>
           <p className="text-sm text-gray-400 text-center font-semibold" >Copyright &copy; {year} Eco-Friendly Adventures</p>
           <p className="text-gray-400 text-center font-semibold mb-2 text-sm ">All rights reserved</p>
         </div>

@@ -10,6 +10,11 @@ html{
   overflow-y:scroll;
 }
 
+a.active{
+  background-color:#2cb5ec;
+  color:#1a1a1a;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

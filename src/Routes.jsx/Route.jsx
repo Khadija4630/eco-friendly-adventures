@@ -1,6 +1,8 @@
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter} from "react-router-dom";
 import Layout from "../Layout/layout";
-import Cards from "../Components/AdventureCard";
+import { Navigate } from "react-router-dom";
+import Travel from "../Components/Travel";
+import AdventureDetails from "../Components/AdventureDetails";
 
 const route = createBrowserRouter([
     {
@@ -13,24 +15,48 @@ const route = createBrowserRouter([
         },
         {
         path: "/category/:id",
-        element: <Cards></Cards>,
-        loader: async ({ params }) => {
-            const response = await fetch(`/adventures.json`); // Replace with your data URL
+        element: <Travel></Travel>,
+        loader: async() => {
+            const response = await fetch(`/adventures.json`); 
             if (!response.ok) {
                 throw new Response("Failed to fetch data", { status: 404 });
             }
-            // return response.json(); 
-            const data = await response.json(); // Parse JSON
-            const filteredData = data.filter(adventure => adventure.CategoryName === params.id);
-            return filteredData;
-        },
+            
+            const data = await response.json(); 
+            console.log("Fetched Data hehe:", data);
+            return data;
+        
     },
-    ],
+},
+{
+    path: "/adventure/:id",
+    element: <AdventureDetails></AdventureDetails>,
+    loader: async ({params}) => {
+        try {
+            const response = await fetch(`/adventures.json`);
+            if (!response.ok) {
+                throw new Response("Failed to fetch data", { status: 404 });
+            }
+            const data = await response.json();
+            console.log("Fetched Data:", data);
+
+            const adventure = data.find(
+                (adventure) => adventure.ID.toString() === params.id
+            );
+
+            if (!adventure) {
+                throw new Response("Adventure not found", { status: 404 });
+            }
+
+            return adventure;
+        } catch (error) {
+            console.error("Loader Error:", error);
+            throw error;
+        }
     },
-    {
-    path: "/adventureDetails",
-    element: <h1>Details Layout</h1>,
-    },
+},
+],
+},
     {
     path: "/myProfile",
     element: <h1>Details Layout</h1>,

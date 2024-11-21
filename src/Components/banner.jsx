@@ -18,7 +18,7 @@ const Banner = () => {
         </div>
         <div className="absolute bottom-36 left-32 md:bottom-64 md:left-80 lg:left-96 lg:right-96 flex flex-col items-center justify-center text-white">
                     <h2 className="md:text-2xl text-xl font-bold hover:text-blue-300 py-3 ">Mountain,Bear Lake,USA</h2>
-                    <button className="btn bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
+                    <button className=" bg-blue-600 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
         </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
@@ -37,7 +37,7 @@ const Banner = () => {
 
             <div className="absolute bottom-36 left-40 md:bottom-64 md:left-80 lg:left-96 lg:right-96 flex flex-col items-center justify-center text-white">
                     <h2 className="md:text-2xl text-xl font-bold hover:text-blue-300 py-3 ">Ocean Diving</h2>
-                    <button className="btn bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
+                    <button className=" bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
         </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
@@ -55,7 +55,7 @@ const Banner = () => {
         </div>
         <div className="absolute bottom-36 left-40 md:bottom-64 md:left-80 lg:left-96 lg:right-96 flex flex-col items-center justify-center text-white">
                     <h2 className="md:text-2xl text-xl font-bold hover:text-blue-300 py-3 ">River ,Bangladesh </h2>
-                    <button className="btn bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
+                    <button className=" bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
         </div>
       </div>
       <div id="slide4" className="carousel-item relative w-full">
@@ -73,7 +73,7 @@ const Banner = () => {
         </div>
         <div className="absolute bottom-28 left-36 md:bottom-64 md:left-80 lg:left-96 lg:right-96 flex flex-col items-center justify-center text-white">
                     <h2 className="md:text-2xl text-xl font-bold hover:text-blue-300 py-3 ">Safari,Bangladesh</h2>
-                    <button className="btn bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
+                    <button className=" bg-blue-500 hover:bg-green-300 hover:text-black mt-2">Learn More</button>
         </div>
       </div>
       <div id="slide5" className="carousel-item relative w-full">
