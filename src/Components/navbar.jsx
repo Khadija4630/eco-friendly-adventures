@@ -55,9 +55,9 @@ const Navbar = () => {;
         </div>
       </div>
       <div className="hidden md:flex space-x-4 text-lg font-medium text-gray-400 py-2 px-4 hover:text-green-600">
-        <NavLink to="/" className="lg:pr-4">
+        <Link to="/" className="lg:pr-4">
           Home
-        </NavLink>
+        </Link>
         <NavLink to="/userProfile" className="lg:pr-4">
           User Profile
         </NavLink>

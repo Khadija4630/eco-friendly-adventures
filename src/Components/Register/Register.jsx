@@ -67,10 +67,10 @@ const Register = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 shadow-lg rounded-lg w-full max-w-md">
-        <h2 className="text-2xl font-bold text-center mb-4">Register</h2>
+        <h2 className=" text-black text-2xl font-bold text-center mb-4">Register</h2>
         <form onSubmit={handleRegister} className="space-y-4">
           <div>
-            <label className="block text-sm font-medium mb-1" htmlFor="name">
+            <label className=" text-black block text-sm font-medium mb-1" htmlFor="name">
               Name
             </label>
             <input
@@ -83,7 +83,7 @@ const Register = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1" htmlFor="email">
+            <label className=" text-black block text-sm font-medium mb-1" htmlFor="email">
               Email
             </label>
             <input
@@ -96,7 +96,7 @@ const Register = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1" htmlFor="photoURL">
+            <label className="text-black block text-sm font-medium mb-1" htmlFor="photoURL">
               Photo URL
             </label>
             <input
@@ -108,7 +108,7 @@ const Register = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1" htmlFor="password">
+            <label className="text-black block text-sm font-medium mb-1" htmlFor="password">
               Password
             </label>
             <input

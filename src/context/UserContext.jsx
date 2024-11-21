@@ -9,13 +9,19 @@ export  const UserContext = createContext();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-      setLoading(false);
-    });
+    // const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    //   setUser(currentUser);
+    //   setLoading(false);
+    // });
 
-    return () => unsubscribe();
+    // return () => unsubscribe();
+    const storedUser = localStorage.getItem("user"); // Replace with Firebase auth if using it
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+    setLoading(false);
   }, []);
+
   const login = (userData) => {
     setUser(userData);
   };

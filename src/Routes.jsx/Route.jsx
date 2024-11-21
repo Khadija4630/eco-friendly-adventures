@@ -3,10 +3,9 @@ import Layout from "../Layout/layout";
 import { Navigate } from "react-router-dom";
 import Travel from "../Components/Travel";
 import AdventureDetails from "../Components/AdventureDetails";
-import AdventureInstructions from "../Components/AdventureInstructions";
 import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
-import UpdateProfile from "../Components/UpdateProfile";
+import UpdateProfilePage from "../Components/UpdateProfile";
 import PrivateRoute from "../routes.jsx/PrivateRoute";
 import ProfilePage from "../Components/ProfilePage";
 
@@ -57,7 +56,7 @@ const route = createBrowserRouter([
 ],
 },
     {
-    path: "myProfile",
+    path: "/userProfile",
     element:(
         <PrivateRoute>
             <ProfilePage></ProfilePage>
@@ -69,21 +68,22 @@ const route = createBrowserRouter([
     element:<h1>404 - Page Not Found</h1>,
     },
     {
-    path: "login",
+    path: "/login",
     element: <Login />,
     },
     {
-    path: "update",
-    element: <UpdateProfile></UpdateProfile>,
+    path: "/updateProfile",
+    element:  (
+        <PrivateRoute>
+            <UpdateProfilePage />
+        </PrivateRoute>
+    ),
     },
     {
-    path: "register",
+    path: "/register",
     element: <Register></Register>,
     },
-    {
-    path: "tips",
-    element:<AdventureInstructions></AdventureInstructions>,
-    },
+    
 ]);
 
 export default route;
