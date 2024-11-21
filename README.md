@@ -1,11 +1,10 @@
 
 # Eco-Friendly Adventures
-
-## Project Purpose
-This project is designed to showcase an adventurous trekking experience ,many more adventures. Users can explore the diverse biodiversity of the region, learn about local cultures. The application provides detailed information about the trek,or other adventures including costs, duration, and eco-friendly practices.
+🌿 Project Purpose
+Eco-Friendly Adventures is a platform designed to inspire and guide users through an array of thrilling trekking and adventure experiences. This project not only highlights the diverse biodiversity of different
 
 ## Live URL
-
+https://eco-friendly-adventures-9.netlify.app/
 
 ## Key Features
 - **Guided Treks**: Users can view detailed itineraries and book guided treks through the mangrove forests.
@@ -19,10 +18,11 @@ This project is designed to showcase an adventurous trekking experience ,many mo
 
 ## NPM Packages Used
 - react
-- react-dom
 - react-router-dom
 - tailwindcss
 - daisyui
-- `react-icons`
-- `react-toastify`
-- `firebase`
+- react-icons
+- react-toastify
+- firebase
+- animate-aos
+ 
