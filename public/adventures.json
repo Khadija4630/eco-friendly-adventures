@@ -512,37 +512,6 @@
     },
     {
         "AdventureID": "A018",
-        "AdventureTitle": "Kayaking the Amazon",
-        "Image": "https://i.ibb.co/KXHKRP6/kayakinf-amazon.jpg",
-        "ID": "03",
-        "CategoryName": "River Adventures",
-        "ShortDescription": "Paddle through the heart of the Amazon rainforest and discover its unique ecosystem.",
-        "AdventureCost": 400,
-        "BookingAvailability": "Limited",
-        "Location": "Amazon River, Brazil",
-        "Duration": "5 days",
-        "AdventureLevel": "Challenging",
-        "IncludedItems": [
-            "Kayak and gear rental",
-            "Guided kayaking",
-            "Camping equipment",
-            "Meals during the trip",
-            "Safety briefing"
-        ],
-        "EcoFriendlyFeatures": [
-            "Leave No Trace practices",
-            "Support for local indigenous communities",
-            "Education on rainforest conservation"
-        ],
-        "MaxGroupSize": 10,
-        "SpecialInstructions": [
-            "Must have basic kayaking skills",
-            "Bring insect repellent and sunscreen",
-            "Pack light and waterproof your belongings"
-        ]
-    },
-    {
-        "AdventureID": "A019",
         "AdventureTitle": "River Kayaking Expedition",
         "Image": "https://i.ibb.co/3phbPYH/river-kayaking.jpg",
         "ID": "03",
@@ -572,7 +541,7 @@
         ]
     },
     {
-        "AdventureID": "A020",
+        "AdventureID": "A019",
         "AdventureTitle": "Stand-Up Paddleboarding Adventure",
         "Image": "https://i.ibb.co/xSQXVDW/standup-paddling.jpg",
         "ID": "03",
@@ -602,7 +571,7 @@
         ]
     },
     {
-        "AdventureID": "A021",
+        "AdventureID": "A020",
         "AdventureTitle": "River Tubing Adventure",
         "Image": "https://i.ibb.co/85b1V7S/river-tubing.jpg",
         "ID": "03",
@@ -632,7 +601,7 @@
         ]
     },
     {
-        "AdventureID": "A022",
+        "AdventureID": "A021",
         "AdventureTitle": "Fishing Expedition on the River",
         "Image": "https://i.ibb.co/Y0m4ZjR/fishing-expediton.jpg",
         "ID": "03",
@@ -662,7 +631,7 @@
         ]
     },
     {
-        "AdventureID":"A023",
+        "AdventureID":"A022",
         "AdventureTitle": "Serengeti Safari Adventure",
         "Image": "https://i.ibb.co/KmZZ2m8/serengeti-safari.jpg",
         "ID": "04",
@@ -692,7 +661,7 @@
         ]
     },
     {
-        "AdventureID":"A024",
+        "AdventureID":"A023",
         "AdventureTitle": "Kruger National Park Safari",
         "Image": "https://i.ibb.co/tmqMwPK/kruger-safari.jpg",
         "ID": "04",
@@ -722,37 +691,7 @@
         ]
     },
     {
-        "AdventureID":"A025",
-        "AdventureTitle": "Amazon Rainforest Expedition",
-        "Image": "https://i.ibb.co/580D2Rj/amazon-safari.jpg",
-        "ID": "04",
-        "CategoryName": "Wildlife Safaris",
-        "ShortDescription": "Venture into the Amazon rainforest to discover its incredible biodiversity and unique wildlife.",
-        "AdventureCost": 2200,
-        "BookingAvailability": "Available",
-        "Location": "Amazon Rainforest, Brazil",
-        "Duration": "6 days",
-        "AdventureLevel": "Challenging",
-        "IncludedItems": [
-            "Guided jungle treks",
-            "Accommodation in eco-lodges",
-            "Daily meals",
-            "Transportation within the rainforest"
-        ],
-        "EcoFriendlyFeatures": [
-            "Support for local indigenous communities",
-            "Education on rainforest conservation",
-            "Use of sustainable practices"
-        ],
-        "MaxGroupSize": 8,
-        "SpecialInstructions": [
-            "Bring insect repellent and a waterproof bag",
-            "Wear sturdy hiking boots",
-            "Follow your guide's instructions"
-        ]
-    },
-    {
-        "AdventureID":"A026",
+        "AdventureID":"A024",
         "AdventureTitle": "Masai Mara Wildlife Safari",
         "Image": "https://i.ibb.co/Lzr0V8x/masai-mara.jpg",
         "ID": "04",
@@ -782,7 +721,7 @@
         ]
     },
     {
-        "AdventureID":"A027",
+        "AdventureID":"A025",
         "AdventureTitle": "Yellowstone National Park Safari",
         "Image": "https://i.ibb.co/vzjs62h/Yellowstone-safari.jpg",
         "ID": "04",
@@ -812,7 +751,7 @@
         ]
     },
     {
-        "AdventureID":"A028",
+        "AdventureID":"A026",
         "AdventureTitle": "Borneo Rainforest Adventure",
         "Image": "https://i.ibb.co/Vv5tx8h/borneo-safari.jpg",
         "ID": "04",
@@ -842,7 +781,7 @@
         ]
     },
     {
-        "AdventureID":"A029",
+        "AdventureID":"A027",
         "AdventureTitle": "Galapagos Island Exploration",
         "Image": "https://i.ibb.co/PMpc0Fq/galapagos-island.jpg",
         "ID": "04",

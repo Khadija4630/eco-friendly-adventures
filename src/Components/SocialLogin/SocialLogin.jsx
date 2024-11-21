@@ -1,16 +1,19 @@
-import {FaGoogle} from 'react-icons/fa';
+import React from "react";
+import { FaGoogle } from "react-icons/fa";
 
-const SocialLogin = () => {
-    return (
-        <div >
-            <h2 className="font-bold mb-3 text-xl text-black">Login with</h2>
-            <div className='w-full flex flex-col '>
-                <button className="btn p-3 mb-2 bg-white">
-                    <FaGoogle className="font-medium" />
-                    Login with Google</button>
-            </div>
-        </div>
-    );
+const SocialLogin = ({ onGoogleLogin }) => {
+  return (
+    <div className="mt-6">
+      <h2 className="text-lg font-semibold text-center mb-4">Login with Social Account</h2>
+      <button
+        onClick={onGoogleLogin}
+        className="w-full flex items-center justify-center bg-red-500 text-white py-2 rounded-md hover:bg-red-600"
+      >
+        <FaGoogle className="mr-2" />
+        Login with Google
+      </button>
+    </div>
+  );
 };
 
 export default SocialLogin;

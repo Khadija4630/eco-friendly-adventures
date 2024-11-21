@@ -1,11 +1,22 @@
 import { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Travel = () => {
     const [travels, setTravels] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const isLoggedIn = false; 
+    const navigate = useNavigate(); 
+
     useEffect(() =>{
+        AOS.init({
+            duration: 1200, 
+            easing: "ease-in-out",
+            once: true, 
+            offset: 100,
+        });
         const fetchAdventures = async () => {
             setLoading(true);
             try {
@@ -39,36 +50,49 @@ const Travel = () => {
         return <div className="text-center">No adventures available.</div>;
     }
 
-    const handleExplore = (AdventureID) => {
+    const handleExplore = (id) => {
         if (isLoggedIn) {
-            Navigate(`/adventure/${AdventureID}`);
-        } else {
-            Navigate("/auth");
+            navigate(`/adventure/${id}`);
         }
+        //  else {
+        //     navigate("/auth");
+        // }
     };
 
     return (
         <div>
-            <h1 className="md:text-3xl text-2xl font-bold text-center text-black my-5">Eco-Adventures</h1>
-            <div className="adventure-list text-black grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <h1  data-aos="fade-down" className="md:text-3xl text-2xl font-bold text-center text-black my-5">Explore all the Eco-Friendly Adventures</h1>
+            <p  data-aos="fade-up" className="text-lg md:text-xl text-gray-700 text-center mb-6 md:w-[50%] mx-auto">
+        Discover our collection of thrilling adventures designed to connect you with nature while prioritizing sustainability. 
+        Each experience comes with unique eco-friendly features and an opportunity to explore the wonders of the great outdoors. 
+        Click "Explore Now" to learn more and start your journey!
+        </p>
+    <div className="adventure-list text-black grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {travels.map((adventure) => (
-                    <div key={adventure.AdventureID} className="adventure-card border p-4 m-2 rounded shadow-md">
+                    <div  data-aos="zoom-in-up" key={adventure.AdventureID} className="adventure-card border p-4 m-2 rounded shadow-md">
                         <h2 className="text-2xl font-semibold">{adventure.AdventureTitle}</h2>
                         <img
                             src={adventure.Image}
                             alt={adventure.AdventureTitle}
                             className="w-full h-56  object-cover rounded-md"
                         />
-                        <div className="eco-friendly-features mt-2">
+                        <p className="text-sm text-gray-600 mb-4">
+                <strong>Category:</strong> {adventure.CategoryName}
+                    </p>
+                    <p className="text-gray-700 mb-2">
+                <strong>Location:</strong> {adventure.Location}
+                    </p>
+                        <div  data-aos="fade-up" className="eco-friendly-features mt-2">
                             <h4 className="font-semibold text-xl">Eco-Friendly Features:</h4>
                             <ul className="list-disc list-inside text-lg text-gray-500">
                                 {adventure.EcoFriendlyFeatures.map((feature, index) => (
-                                    <li key={index}>{feature}</li>
+                                    <li data-aos="fade-in" key={index}>{feature}</li>
                                 ))}
                             </ul>
                         </div>
                         <button
-                            onClick={() => handleExplore(adventure.ID)}
+                        data-aos="flip-up"
+                            onClick={() => handleExplore(adventure.AdventureID)}
                             className="mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-blue-600"
                         >
                             Explore Now
@@ -81,31 +105,3 @@ const Travel = () => {
 };
 
 export default Travel;
-
-{/* .map(adventure => (
-                    <div key={adventure.ID} className="adventure-card border p-4 m-2 rounded shadow-md">
-                        <h2 className="text-xl font-semibold">{adventure.AdventureTitle}</h2>
-                        <img src={adventure.Image} alt={adventure.AdventureTitle} className="w-full h-48 object-cover rounded-md" />
-                        <p className="mt-2">{adventure.ShortDescription}</p>
-                        <p className="mt-2 font-bold">Cost: ${adventure.AdventureCost}</p>
-                        <p className="mt-2">Duration: {adventure.Duration}</p>
-                        <p className="mt-2">Level: {adventure.AdventureLevel}</p>
-                        <p className="mt-2">Location: {adventure.Location}</p>
-                        <div className="eco-friendly-features mt-2">
-                            <h4 className="font-semibold">Eco-Friendly Features:</h4>
-                            <ul className="list-disc list-inside">
-                                {adventure.EcoFriendlyFeatures.map((feature, index) => (
-                                    <li key={index}>{feature}</li>
-                                ))}
-                            </ul>
-                            <Link
-                            to={`/adventure/${adventure.ID}`}
-                            className="text-blue-500 underline mt-2 block"
-                        >
-                            View Details
-                        </Link>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div> */}

@@ -3,6 +3,12 @@ import Layout from "../Layout/layout";
 import { Navigate } from "react-router-dom";
 import Travel from "../Components/Travel";
 import AdventureDetails from "../Components/AdventureDetails";
+import AdventureInstructions from "../Components/AdventureInstructions";
+import Login from "../Components/Login/Login";
+import Register from "../Components/Register/Register";
+import UpdateProfile from "../Components/UpdateProfile";
+import PrivateRoute from "../routes.jsx/PrivateRoute";
+import ProfilePage from "../Components/ProfilePage";
 
 const route = createBrowserRouter([
     {
@@ -16,21 +22,14 @@ const route = createBrowserRouter([
         {
         path: "/category/:id",
         element: <Travel></Travel>,
-        loader: async() => {
-            const response = await fetch(`/adventures.json`); 
-            if (!response.ok) {
-                throw new Response("Failed to fetch data", { status: 404 });
-            }
-            
-            const data = await response.json(); 
-            console.log("Fetched Data hehe:", data);
-            return data;
-        
-    },
 },
 {
     path: "/adventure/:id",
-    element: <AdventureDetails></AdventureDetails>,
+    element: (
+        <PrivateRoute>
+            <AdventureDetails />
+        </PrivateRoute>
+    ),
     loader: async ({params}) => {
         try {
             const response = await fetch(`/adventures.json`);
@@ -41,7 +40,7 @@ const route = createBrowserRouter([
             console.log("Fetched Data:", data);
 
             const adventure = data.find(
-                (adventure) => adventure.ID.toString() === params.id
+                (adventure) => adventure.AdventureID.toString() === params.id
             );
 
             if (!adventure) {
@@ -58,16 +57,32 @@ const route = createBrowserRouter([
 ],
 },
     {
-    path: "/myProfile",
-    element: <h1>Details Layout</h1>,
-    },
-    {
-    path: "auth",
-    element: <h1>Login</h1>,
+    path: "myProfile",
+    element:(
+        <PrivateRoute>
+            <ProfilePage></ProfilePage>
+        </PrivateRoute>
+    ),
     },
     {
     path: "*",
-    element: <h1>Error</h1>,
+    element:<h1>404 - Page Not Found</h1>,
+    },
+    {
+    path: "login",
+    element: <Login />,
+    },
+    {
+    path: "update",
+    element: <UpdateProfile></UpdateProfile>,
+    },
+    {
+    path: "register",
+    element: <Register></Register>,
+    },
+    {
+    path: "tips",
+    element:<AdventureInstructions></AdventureInstructions>,
     },
 ]);
 
