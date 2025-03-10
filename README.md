@@ -1,7 +1,7 @@
 
 # Eco-Friendly Adventures
 🌿 Project Purpose
-Eco-Friendly Adventures is a platform designed to inspire and guide users through an array of thrilling trekking and adventure experiences. This project not only highlights the diverse biodiversity of different
+Eco-Friendly Adventures is a platform designed to inspire and guide users through an array of thrilling trekking and adventure experiences. This project not only highlights the diverse biodiversity of different.
 
 ## Live URL
 https://eco-friendly-adventures-9.netlify.app/
